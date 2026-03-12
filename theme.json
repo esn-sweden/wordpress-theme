@@ -1,34 +1,6 @@
 {
-	"customTemplates": [
-		{
-			"name": "page-no-title",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page No Title"
-		},
-		{
-			"name": "page-with-sidebar",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page with Sidebar"
-		},
-		{
-			"name": "page-wide",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page with Wide Image"
-		},
-		{
-			"name": "single-with-sidebar",
-			"postTypes": [
-				"post"
-			],
-			"title": "Single with Sidebar"
-		}
-	],
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
 	"patterns": [
 		"three-columns-of-services",
 		"clients-section"
@@ -1072,6 +1044,34 @@
 			"title": "Post Meta"
 		}
 	],
-	"version": 3,
-	"$schema": "https://schemas.wp.org/trunk/theme.json"
+	"customTemplates": [
+		{
+			"name": "page-no-title",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page No Title"
+		},
+		{
+			"name": "page-with-sidebar",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page with Sidebar"
+		},
+		{
+			"name": "page-wide",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page with Wide Image"
+		},
+		{
+			"name": "single-with-sidebar",
+			"postTypes": [
+				"post"
+			],
+			"title": "Single with Sidebar"
+		}
+	]
 }
