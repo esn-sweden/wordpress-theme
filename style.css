@@ -1,0 +1,63 @@
+/*
+Theme Name: ESN Sweden
+Theme URI: https://github.com/ESN-Lund/wordpress-theme/
+Author: Elias Jollivet
+Author URI: https://esnlund.org/
+Description: ESN Lund's theme is based on the Twenty Twenty-Four theme and uses some modifications by ESN Sweden.
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 5.7
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: twentytwentyfour
+Text Domain: esn-sweden
+Tags: Blog, News, Portfolio, One Column, Wide Blocks, Accessibility Ready, Block Editor Patterns, Block Editor Styles, Custom Colours, Custom Logo, custom-menu, Editor Style, Featured Images, Site Editor, rtl-language-support, Sticky Post, Style Variations, threaded-comments, translation-ready
+
+/*@font-face {
+    font-family: 'latoregular';
+    src: url('https://esnsweden.azurewebsites.net/wp-content/uploads/2024/01/lato-regular-webfont.woff2') format('woff2'),
+         url('https://esnsweden.azurewebsites.net/wp-content/uploads/2024/01/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+/*@font-face {
+    font-family: 'latoregular';
+    src: url('https://esnsweden.azurewebsites.net/wp-content/uploads/2024/01/lato-regular-webfont.woff2') format('woff2'),
+         url('https://esnsweden.azurewebsites.net/wp-content/uploads/2024/01/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+@font-face {
+	font-family: 'latoregular';
+	src: url('wp-content/themes/esnsweden/assets/fonts/lato_normal_400.ttf') format('tff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'lato';
+	src: url("wp-content/themes/esnsweden/assets/fonts/lato_normal_400.ttf") format('tff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'kelson_sansregular';
+    src: url('wp-content/themes/esnsweden/assets/fonts/kelson_sans_regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebasneue';
+    src: url('wp-content/themes/esnsweden/assets/fonts/BebasNeue-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+	
+}
