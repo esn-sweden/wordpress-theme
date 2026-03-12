@@ -13,3 +13,78 @@
  * License:           GNU General Public License v2.0 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
+
+
+.wp-block-navigation-item__content {
+    padding: 10px
+}
+
+.wp-block-navigation-item {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    background-color: #007bff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.wp-block-navigation-item:hover {
+    background-color: var(--wp--preset--color--esn-cyan);
+    color: #fff;
+}
+
+.wp-block-navigation__responsive-container-open {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.wp-block-navigation-link:hover,
+.wp-block-navigation-submenu:hover {
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+}
+
+.wp-block-navigation__submenu-icon {
+    background-color: transparent;
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
+}
+
+.wp-block-navigation-item__label {
+    font-family: var(--wp--preset--font-family--kelson-sans);
+}
+
+.header-group {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.esn-color-bar {
+    height: 10px;
+    width: 100%;
+    /* Adjust width as needed */
+    border-radius: 5px;
+    background: linear-gradient(to right, #00aeef 0%, #00aeef 25%, #ec008c 25%, #ec008c 50%, #7ac143 50%, #7ac143 75%, #f47b20 75%, #f47b20 100%);
+}
